@@ -1,0 +1,147 @@
+body{
+    box-sizing: border-box;
+    background-color:black
+}
+.logoNav{
+    height: 7rem;
+}
+@media(max-width:1255px){
+   .logoNav{
+    height: 3rem;
+   }}
+
+
+.section1{
+    height: 150px;
+    width:
+}
+.section1 :first-child{
+   
+    display:flex ;
+    column-gap: 50px;
+    align-items: center;
+   
+}
+
+
+.material-symbols-outlined{
+    font-size: 40px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+@media(max-width:985px){
+    .prova{
+        display: none;
+    }
+}
+
+
+    
+
+ 
+@media(max-width:379px){
+    
+    .mediaButton{
+        margin-right: 20px;
+        height: 3rem;
+        width: 5rem
+    }
+
+
+    }
+
+
+ 
+       
+    @media(max-width:379px){
+        h2{
+
+        }
+    }
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+    .carousel-inner .carousel-item > div{
+        display:block;}
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+.card-img img{
+    border-radius: 20px;
+}
+.card{
+   translate: all;
+   border: black;
+   
+}
+.card-img:hover{
+    transform: scale(1.2);
+    
+}
+
+
+
+
+@media(max-width:512px){
+    .tredding{
+        font-size: 1.5rem;
+    }
+}
+.social{
+    padding-right: 50px;
+}
+
+.footer li{
+    list-style: none;
+}
+
+@media(max-width:400px){
+    .mediafoter{
+        font-size: 0.8rem;
+        
+    }
+    
+}
+
+@media(max-width:400px){
+    .svg1{
+        height: 20px;
+        width: 20px;
+       }
+}
+
+
