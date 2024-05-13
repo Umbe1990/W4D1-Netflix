@@ -1,6 +1,7 @@
 body{
     box-sizing: border-box;
-    background-color:black
+    background-color:black;
+    margin: 20px;
 }
 .logoNav{
     height: 7rem;
@@ -30,7 +31,7 @@ body{
     cursor: pointer;
 }
 
-@media(max-width:985px){
+@media(max-width:1095px){
     .prova{
         display: none;
     }
@@ -129,9 +130,10 @@ body{
     list-style: none;
 }
 
-@media(max-width:400px){
+@media(max-width:407px){
     .mediafoter{
         font-size: 0.8rem;
+        height: 2rem;
         
     }
     
